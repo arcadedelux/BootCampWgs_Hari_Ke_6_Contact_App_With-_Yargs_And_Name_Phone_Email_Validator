@@ -1,5 +1,6 @@
 const yargs =require('yargs')
- const contact = require('./contact')
+const contact = require('./contact')
+
 // console.log(yargs.argv)
 
 //inisiasi command Input dari terminal menggunakan library Yargs
@@ -37,7 +38,7 @@ yargs.command({
 
 yargs.parse()
 
-
+//Membuat fungsi asychoronus memanggil fungsi tanya readline name,phone dan email serta memasukan data ke contact.json
 // const run = async () => {
 //     const name =  await questions('Whats is your name?')
 //     const phone =  await questions('Whats is your mobile phone number?')
@@ -48,6 +49,7 @@ yargs.parse()
 
 // run()
 
+//Node readline module input dan fungsi menyimpan data input ke contacts.json
 // rl.question('Whats is your name?',(name)=>{
 //     rl.question('Your Mobile Phone Number',(phone)=>{
 //         const contact ={name,phone}

@@ -22,7 +22,7 @@ const validator = require('validator')// const fs =require('fs')
     fs.writeFileSync(dataPath,'[]','utf-8')
   }
 
-  // //Fungsi Menanyakan Data dengan readlines module dari node
+  // Fungsi Menanyakan Data dengan readlines module dari node
   // const questions=(ask)=>{
   //   return new Promise((resolve)=>{
   //       rl.question(ask,(data)=>{
