@@ -1,6 +1,6 @@
 
 const fs = require('fs')
-const validator = require('validator')// const fs =require('fs')
+const validator = require('validator')
 
 // Inisiasi Node readline
 // const readline = require('readline')
